@@ -1,0 +1,5 @@
+To sent requests to arduino from computer:
+1. Check arduino IP address by running 
+2. Open CMD, and paste command -> curl -X POST -d "value=0" http://ip_addess_here/setAngle
+  a. value = 0, cabinet is unlocked
+  b. value = 180, cabinet is locked
